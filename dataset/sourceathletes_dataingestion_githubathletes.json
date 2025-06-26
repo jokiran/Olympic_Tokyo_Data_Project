@@ -1,0 +1,22 @@
+{
+	"name": "sourceathletes_dataingestion_githubathletes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AthletesHTTP",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
