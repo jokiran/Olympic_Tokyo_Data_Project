@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "-- find number of athletes per country---\nselect * from athletes;\n\nselect country ,count(PersonName)as number_Of_athletes\nfrom athletes\ngroup by country;\n\n\n-- find total numbers of medals won by each country--\nselect * from medals;\nselect TeamCountry,\nsum(Gold)as Total_Golds,\nsum(Silver)as Total_silvers,\nsum(Bronze)as Total_bronzs\nfrom medals\ngroup by TeamCountry\norder by Total_Golds desc;\n\n-- find average number of genders per disciple--\n\nselect * from entriesgender;\n\nselect Discipline,\n       avg(Female)as avg_female,\n       avg(Male)as avg_male\nfrom entriesgender\ngroup by Discipline;\n\n\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Olympic_data_db",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

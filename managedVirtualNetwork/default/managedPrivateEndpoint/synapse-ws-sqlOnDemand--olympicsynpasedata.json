@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--olympicsynpasedata",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/18e6c0e2-a00b-4fc8-8a78-66d7fba26a06/resourceGroups/tokyo_olympic/providers/Microsoft.Synapse/workspaces/olympicsynpasedata",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"olympicsynpasedata-ondemand.a14a60db-6f52-4a10-8084-c288a636f9eb.sql.azuresynapse.net"
+		]
+	}
+}

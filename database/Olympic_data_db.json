@@ -1,0 +1,25 @@
+{
+	"name": "Olympic_data_db",
+	"properties": {
+		"Name": "Olympic_data_db",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://olympicdata@odtokyo.dfs.core.windows.net/Olympic_data_db",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "olympicsynpasedata-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 5,
+		"ObjectId": "6368a921-e141-44d6-aaf4-5b56a8dcb835"
+	},
+	"type": "DATABASE"
+}

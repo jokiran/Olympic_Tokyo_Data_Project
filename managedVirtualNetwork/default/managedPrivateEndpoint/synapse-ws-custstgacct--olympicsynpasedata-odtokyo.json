@@ -1,0 +1,7 @@
+{
+	"name": "synapse-ws-custstgacct--olympicsynpasedata-odtokyo",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/18e6c0e2-a00b-4fc8-8a78-66d7fba26a06/resourceGroups/tokyo_olympic/providers/Microsoft.Storage/storageAccounts/odtokyo",
+		"groupId": "dfs"
+	}
+}
